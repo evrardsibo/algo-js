@@ -1,14 +1,13 @@
 const readlineSync = require("readline-sync");
 
-let shoe = readlineSync.question('your shoe size');
-let birth = readlineSync.question(' your birth year');
+var shoe = readlineSync.question('your shoe size');
+var birth = readlineSync.question(' your birth year');
 
-let mult = shoe * 2 ;
-let add = mult + 5 ;
-let multi = add * 50 ;
-let sub = multi - birth ;
-let adde = sub + 1766 ;
+var mult = shoe * 2 ;
+var add = mult + 5 ;
+var multi = add * 50 ;
+var sub = multi - birth ;
+var adde = sub + 1766 ;
 
 console.log(adde)
-
 

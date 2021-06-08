@@ -1,3 +1,4 @@
-let  name = "Evrard";
+var  name = "Evrard";
 console.log (name);
+
 

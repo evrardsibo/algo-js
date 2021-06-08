@@ -1,9 +1,11 @@
+
+
 const readlineSync = require("readline-sync");
 
-let number = readlineSync.question('put a decimal number');
-let numberone = readlineSync.question('again');
+var name = readlineSync.question('your name');
+var firstname = readlineSync.question('your firstname');
+var city = readlineSync.question('your live where');
 
 
 
-console.log(Math.trunc(number)*numberone);
-
+console.log("My is name" +" " +name + "My firstname is" + firstname + "and i live" + city);
